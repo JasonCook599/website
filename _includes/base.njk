@@ -26,6 +26,7 @@
     <link rel="preconnect" href="{{ metadata.url }}">
     <link rel="me" href="{{ metadata.url }}" type="text/html">
     <link rel="me" href="mailto:{{ metadata.mail }}">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 630px)" href="columns.css">
     {% set css %}
       {% include "style.css" %}
     {% endset %}
@@ -34,7 +35,9 @@
     </style>
   </head>
   <body>
+  <div class="wrapper">
     {{ content | safe }}
+  </div>
     {% set js %}
       {% include "script.js" %}
     {% endset %}
