@@ -14,23 +14,32 @@ body {
     font-weight: 100;
 }
 
-h2 {
+div.title>h2 {
     font-weight: 100;
+    font-size: large;
+}
+
+div.title>h1,
+div.title>h2 {
+    margin: 0;
 }
 
 img.profile {
     width: 20em;
     vertical-align: middle;
     border-radius: 50%;
-    margin-left: auto;
+    margin: auto;
+    margin-bottom: 2em;
 }
-
-div.container {}
 
 .centre,
 .center {
     text-align: center;
     margin: auto;
+}
+
+div.action {
+    margin: 2em;
 }
 
 a.button1 {
