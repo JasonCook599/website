@@ -1,10 +1,6 @@
 body {
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 98vh;
+    /* height: 98vh; */
     max-width: 25%;
     min-width: 50vh;
     margin: auto;
@@ -12,6 +8,17 @@ body {
     background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
     background-size: 20px 20px;
     font-weight: 100;
+}
+
+div.centre-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
 }
 
 div.title>h2 {
@@ -30,16 +37,6 @@ img.profile {
     border-radius: 50%;
     margin: auto;
     margin-bottom: 2em;
-}
-
-.centre,
-.center {
-    text-align: center;
-    margin: auto;
-}
-
-div.action {
-    margin: 2em;
 }
 
 a.button1 {

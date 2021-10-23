@@ -1,23 +1,25 @@
 {
-  "name": "micro-site",
+  "name": "jason-cook-web",
   "version": "1.0.0",
-  "description": "Opinionated micro front-end that can be used to start a one-page site.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
     "dev": "eleventy --serve",
-    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --dryrun"
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --dryrun",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voightco/micro-site.git"
+    "url": "git+https://github.com/JasonCook599/jc.git"
   },
+  "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/voightco/micro-site/issues"
+    "url": "https://github.com/JasonCook599/jc/issues"
   },
-  "homepage": "https://github.com/voightco/micro-site#readme",
+  "homepage": "https://github.com/JasonCook599/jc#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "clean-css": "^4.2.3",
