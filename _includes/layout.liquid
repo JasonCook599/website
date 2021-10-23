@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,27 +20,18 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ metadata.social }}">
     <meta name="twitter:dnt" content="on">
-    <title>{{ metadata.title }}</title>
+    <title>{% if title %}{{title}} - {% endif %}{{ metadata.title }}</title>
     <link rel="icon" type="image/png" href="{{ metadata.favicon }}">
     <link rel="dns-prefetch" href="{{ metadata.url }}">
     <link rel="preconnect" href="{{ metadata.url }}">
     <link rel="me" href="{{ metadata.url }}" type="text/html">
     <link rel="me" href="mailto:{{ metadata.mail }}">
-    {% set css %}
-      {% include "style.css" %}
-    {% endset %}
-    <style>
-      {{ css | cssmin | safe }}
-    </style>
-  </head>
-  <body>
+    {% capture css %} {% include style.css %} {% endcapture %}
+    {% if css != "  " %}<style>{{css | cssmin | safe}}</style>{% endif %}
+</head>
+<body>
     {{ content | safe }}
-    {% set js %}
-      {% include "script.js" %}
-    {% endset %}
-    <script>
-      {{ js | jsmin | safe }}
-    </script>
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "058aefb10edc4d3fba41bf60ad7d9f3c"}'></script>
-  </body>
+    {% capture js %} {% include script.js %} {% endcapture %}
+    {% if js != "  " %}<script>{{js | jsmin | safe}}</script>{% endif %}
+</body>
 </html>
