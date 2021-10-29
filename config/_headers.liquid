@@ -1,0 +1,22 @@
+---
+permalink: /_headers
+layout: null
+---
+/*
+  Access-Control-Allow-Origin: *
+  Content-Security-Policy: default-src 'none' img-src 'self' style-src 'self' script-src 'self';
+  Permissions-Policy: document-domain=()
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=1
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+
+https://*.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+/assets/:asset
+  X-Asset-Name: You requestes ":asset"
