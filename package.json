@@ -1,7 +1,7 @@
 {
   "name": "jason-cook-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "A website for Tectic, a tech consulting firm based in Waterloo Region.",
   "main": "index.js",
   "scripts": {
     "build": "eleventy",
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/JasonCook599/jc#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "clean-css": "^4.2.3",
-    "terser": "^5.6.0-beta"
+    "clean-css": "^5.2.2",
+    "terser": "^5.9.0",
+    "html-minifier": "^4.0.0"
   }
 }
