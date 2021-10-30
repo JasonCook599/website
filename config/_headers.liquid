@@ -10,6 +10,7 @@ layout: null
   Strict-Transport-Security: max-age=1
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
+  X-Build-Date: {{ "now" | date: "%a, %d %b %Y %H:%M:%S EST" }}
   X-XSS-Protection: 1; mode=block
 
 https://:project.pages.dev/*
