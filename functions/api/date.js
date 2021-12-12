@@ -29,36 +29,35 @@ export async function onRequest(context) {
         return foundOrigin ? foundOrigin : allowedOrigins[0]
     }
 
-    async function handleRequest(event) {
-        // Check if origin is valid
-        const allowedOrigin = checkOrigin(event.request)
 
-        if (event.request.method === "OPTIONS") {
-            return new Response("OK", { headers: corsHeaders() })
-        }
+    // Check if origin is valid
+    const allowedOrigin = checkOrigin(event.request)
 
-        if (event.request.method === "GET") {
-            // Application headers
-            const applicationHeaders = ({
-                "content-type": "application/json;charset=UTF-8"
-            })
-
-            // concat CORS and application
-            const responseHeaders = {
-                ...corsHeaders(allowedOrigin),
-                ...applicationHeaders
-            }
-
-            // create json response
-            const dateJson = JSON.stringify({
-                date: new Date(Date.now() - (1000 * 60 * 60))
-            })
-
-            return new Response(dateJson, {
-                headers: responseHeaders
-            })
-        }
-        return
-
+    if (event.request.method === "OPTIONS") {
+        return new Response("OK", { headers: corsHeaders() })
     }
+
+    if (event.request.method === "GET") {
+        // Application headers
+        const applicationHeaders = ({
+            "content-type": "application/json;charset=UTF-8"
+        })
+
+        // concat CORS and application
+        const responseHeaders = {
+            ...corsHeaders(allowedOrigin),
+            ...applicationHeaders
+        }
+
+        // create json response
+        const dateJson = JSON.stringify({
+            date: new Date(Date.now() - (1000 * 60 * 60))
+        })
+
+        return new Response(dateJson, {
+            headers: responseHeaders
+        })
+    }
+    return
+
 }
