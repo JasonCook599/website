@@ -31,13 +31,13 @@ export async function onRequest(context) {
 
 
     // Check if origin is valid
-    const allowedOrigin = checkOrigin(event.request)
+    const allowedOrigin = checkOrigin(request)
 
-    if (event.request.method === "OPTIONS") {
+    if (request.method === "OPTIONS") {
         return new Response("OK", { headers: corsHeaders() })
     }
 
-    if (event.request.method === "GET") {
+    if (request.method === "GET") {
         // Application headers
         const applicationHeaders = ({
             "content-type": "application/json;charset=UTF-8"
