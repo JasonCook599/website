@@ -1,0 +1,16 @@
+{
+    "$schema": "./links.schema.json",
+    "Personal": [{
+            "Title": "GitHub",
+            "Url": "https://github.com/JasonCook599"
+        },
+        {
+            "Title": "LinkedIn",
+            "Url": "https://www.linkedin.com/"
+        },
+        {
+            "Title": "Contact",
+            "Url": "mailto:jason@jasoncook.ca"
+        }
+    ]
+}
