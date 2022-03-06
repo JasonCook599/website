@@ -5,18 +5,13 @@ subtitle: Information Technology
 ignoreDefaultTitle: true
 ---
 <div class="home">
-    <div class="centre-vertical">
-        <div class="title centre">
-            <img src="/assets/headshot-512.webp" height="320" width="320" class="profile" alt="Headshot">
-            <h1>{{title}}</h1>
-            <h2>{{subtitle}}</h2>
-        </div>
-        <p>For the past eight years, I have worked as an AV/IT Technician in a small business environment. It has been my responsibility to provide install, maintain, and support users with technology. For most of my career, I have been the only person working in IT. This has required me to understand and troubleshoot issues quickly then communicate solutions to users clearly.</p>
-        </ul>
-        <div class="action centre">
-            {% for link in links.Personal %}
-            <a class="button1" href="{{link.Url}}">{{ link.Title }}</a>
-            {% endfor %}
-        </div>
+  <div class="centre-vertical">
+    <div class="title centre">
+      <img src="/assets/headshot-512.webp" height="320" width="320" class="profile" alt="Headshot">
+      <h1>{{title}}</h1>
+      <h2>{{subtitle}}</h2>
     </div>
+    <p>For the past eight years, I have worked as an AV/IT Technician in a small business environment. It has been my responsibility to provide install, maintain, and support users with technology. For most of my career, I have been the only person working in IT. This has required me to understand and troubleshoot issues quickly then communicate solutions to users clearly.</p>
+    <div class="action centre"> {% for link in links.Personal %} <a class="button1" href="{{link.Url}}">{{ link.Title }}</a> {% endfor %} </div>
+  </div>
 </div>

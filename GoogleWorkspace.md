@@ -2,10 +2,13 @@
 layout: layout.liquid
 title: Google Workspace
 ---
+
 # You are moving to Google Workspace!
+
 We’re pleased to announce that your company has chosen Google Workspace for its new email and calendar platform. We, along with your IT team, are working on the migration and look forward to moving employees from the existing platform to the new services in the coming weeks/months. This process will begin with a group of selected "early adopters" and then continue phasing in the services with additional groups of employees.
 
 ## What’s Google Workspace?
+
 Google Workspace is a set of web-based messaging and collaboration applications that Google hosts on its own servers. Google provides these applications as a service, rather than as software to download and install. To access Google Workspace, you simply use a web browser on a computer that's connected to the Internet or your smart device.
 
 For a quick overview of Google Workspace and why we’re so excited about the switch, check out the video below!
@@ -26,9 +29,11 @@ By choosing Google Workspace, for the email and calendar solution, your organiza
 - **Instant messaging** — Because Google Workspace includes Hangouts, we can now implement an instant messaging system for our organization
 
 ## What does Google Workspace include?
+
 Your new Google Workspace account can include the following services. Depending on your organizations requirements, some service may not be enabled.
 
 # Icons
+
 **With these apps, here are some of the key benefits we think you'll enjoy. Again, depending on your organizations requirements, some service may not be enabled.**
 
 - Lots of storage: You get a full 30 GB of online storage for your email, so you can archive all of your email online. You'll no longer need to worry about deleting messages or saving them in offline folders.
@@ -41,21 +46,27 @@ Your new Google Workspace account can include the following services. Depending 
 - Easy-to-build team web sites: With Google Sites, your project team can quickly publish an internal web site with shared information, such as documents, spreadsheets, presentations, files, and videos. You can even embed Google calendars and other gadgets (applications) on your site.
 
 ### Is Google Workspace the same as the personal (free) version of Gmail and Google Calendar?
+
 They’re similar, but we'll be using the business-class edition of Google Workspace, which provides more features, more storage, and more support.
 
 ### Will my email address change?
+
 In nearly all cases, no, your email address won't change! You'll continue to receive all your email at your current company address. In the unlikely event that your email address need to change, you will be contacted individually before the change occurs.
 
 ### Are you migrating my email and calendar to Google Workspace?
+
 In nearly all cases, yes, we'll migrate all of your email messages, calendar events, and personal contacts from your current application to Google Workspace during non-business hours, so they'll be ready for you when you sign in to your new Google Workspace account.
 
 ### Do I need to do anything after I get my Google Workspace account?
+
 You'll just need to complete a few simple tasks to complete your migration, such as re-creating any email rules you used as Gmail filters, and setting up your mobile device to access your services from anywhere.
 
 ### Will the IT department provide assistance during the transition?
+
 To get you up to speed quickly, we'll provide plenty of documentation and training resources[, as well as several live online training sessions]. Members of the IT team will also be available to answer your questions or resolve any issues you encounter. You can also visit the Google Workspace Learning Center for guides, tips and examples of how to make the most of your new services.
 
 ### How much time will it take to set up and learn how to use Google Workspace?
+
 You'll be able to master the basics, like sending and receiving email and viewing and scheduling meetings, very quickly. It may take more time to really learn to make the most of your new services, depending on how you currently use Outlook or Notes. For example, for a typical email and calendar migration, expect to spend a few hours over the course of a week or so to take the training, review documentation, and set up your services. If you also access email on a mobile device, plan on spending a bit more time.
 
 We think you'll enjoy your new Google Workspace services, and we're committed to making this a smooth transition. If you require assistance of any kind, please contact your IT department or myself using the button below.

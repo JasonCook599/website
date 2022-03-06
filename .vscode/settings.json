@@ -1,7 +1,28 @@
 {
-    "cSpell.words": [
-        "Eleventy",
-        "Shortlink",
-        "templating"
-    ]
+  "cSpell.words": [
+    "Eleventy",
+    "leadingzeros",
+    "linkify",
+    "oldoffset",
+    "prefs",
+    "Shortlink",
+    "Tectic",
+    "templating",
+    "twelvehour"
+  ],
+  "editor.defaultFormatter": "Glavin001.unibeautify-vscode",
+  "editor.formatOnSave": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "formatFiles.excludedFolders": [
+    "node_modules", ".git", "_site"
+  ],
+  "formatFiles.excludePattern": "*(package-lock.json|headers.liquid|sitemap.liquid)",
+  "formatFiles.useGitIgnore": true,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "markdownlint.customRules": ["front_matter_title: \"\""],
+  "editor.tabSize": 2
 }

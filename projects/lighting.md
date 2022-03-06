@@ -2,7 +2,9 @@
 layout: layout.liquid
 title: Lighting
 ---
+
 # {{ title }}
+
 Here is an example of my lighting design.
 
 Like what you see and want to work with me on your next project?
