@@ -49,6 +49,7 @@ CSS:
   no_leading_zero: true
   selector_separator_newline: true
 JavaScript:
+  # TODO allow single line if statements. See scripts: 58-60
   beautifiers:
     - Prettier
     - Pretty Diff

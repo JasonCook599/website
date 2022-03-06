@@ -77,25 +77,12 @@ div#clock {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    border: 3px solid aqua;
     width: 90%;
     text-align: center;
 }
 
 div#time {
-    border: 3px solid #73AD21;
-    padding: 1em;
-    min-height: 10%;
-}
-
-div#time>span {
     font-size: 5em;
-}
-
-div#time>span#session {
-    /* background-color: brown; */
-    margin: 0px;
-    padding-left: 0.25em;
 }
 
 div#date {

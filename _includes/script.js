@@ -30,15 +30,16 @@ async function getPreferences() {
   }
 }
 async function updateTime() {
-  offset = await getTimeOffset(60 * 60 * 1000, offset)
-  prefs = await getPreferences()
+  offset = await getTimeOffset(60 * 60 * 1000, offset) // Get time offset. Interval of one hours. 60 seconds * 60 minutes * 1000 milliseconds per second
+  prefs = await getPreferences() // Get preferences
+  //Set date based on offset
   var date = new Date(Date.now() + offset)
   var hour = date.getHours() // 0 - 23
   var minute = date.getMinutes() // 0 - 59
   var second = date.getSeconds() // 0 - 59
-  //console.log(date.toLocaleTimeString('en-US', prefs.format.time));
+  //convert to 12h
   if (prefs.twelvehour === true) {
-    hour = hour % 12 //convert to 12h; mod 12
+    hour = hour % 12 // mod 12
     hour = hour ? hour : 12 //midnight
     session = hour >= 12 ? prefs.format.session.PM : prefs.format.session.AM //AM or PM
   }
@@ -52,28 +53,30 @@ async function updateTime() {
   if (prefs.leadingzeros.second) {
     var second = second.toString().padStart(2, 0)
   }
-  /*
-  time=null
-  if (prefs.show.hour) {time += hour}
-  if (prefs.show.hour & prefs.show.minute) {time += prefs.separator}
-  if (prefs.show.minute) {time += minute}
-  if (prefs.show.minute & prefs.show.second) {time += prefs.separator}
-  if (prefs.show.second) {time += second}
-  if (prefs.show.session) {time += " " + session}
-  document.getElementById("time").textContent = time;
-*/
-  document.getElementById("hour").textContent = hour
-  document.getElementById("minute").textContent = minute
-  document.getElementById("second").textContent = second
-  document.querySelectorAll(".separator").forEach(function (element) {
-    if (prefs.separator == null) {
-      element.textContent = ":"
-    } else {
-      element.textContent = prefs.separator
-    }
-  })
-  document.getElementById("session").textContent = session
-  setTimeout(updateTime, 1000)
+  // Format time based on prefs
+  time = null
+  if (prefs.show.hour) {
+    time += hour
+  }
+  if (prefs.show.hour & prefs.show.minute) {
+    time += prefs.separator
+  }
+  if (prefs.show.minute) {
+    time += minute
+  }
+  if (prefs.show.minute & prefs.show.second) {
+    time += prefs.separator
+  }
+  if (prefs.show.second) {
+    time += second
+  }
+  if (prefs.show.session && prefs.twelvehour) {
+    time += " " + session
+  }
+  document.getElementById("time").textContent = time //Show time
+  // TODO Add formatting options for date.
+  document.getElementById("date").textContent = date.toDateString() //Show date
+  setTimeout(updateTime, 500) // Wait, then update time again
 }
 window.onload = load
 
