@@ -1,0 +1,90 @@
+HTML:
+  beautifiers:
+    - Pretty Diff
+    - JS-Beautify
+  wrap_line_length: 0
+  end_with_newline: true
+  indent_size: 2
+  indent_style: space
+  max_preserve_newlines: 0
+  preserve_newlines: false
+  brace_style: collapse
+  quotes: double
+  indent_comments: true
+  indent_inner_html: true
+  newline_before_tags: []
+  force_indentation: true
+Liquid:
+  beautifiers:
+    - JS-Beautify
+  wrap_line_length: 0
+  indent_size: 2
+  indent_style: space
+  max_preserve_newlines: 0
+  preserve_newlines: true
+  indent_inner_html: true
+Markdown:
+  beautifiers:
+    - Prettier
+  wrap_line_length: 0
+  pragma_insert: false
+  pragma_require: false
+  wrap_prose: preserve
+CSS:
+  beautifiers:
+    - Prettier
+    - Pretty Diff
+    - JS-Beautify
+    - CSScomb
+  wrap_line_length: 0
+  end_with_newline: true
+  indent_size: 2
+  indent_style: space
+  max_preserve_newlines: 0
+  preserve_newlines: false
+  pragma_insert: false
+  pragma_require: false
+  quotes: double
+  newline_between_rules: true
+  no_leading_zero: true
+  selector_separator_newline: true
+JavaScript:
+  # TODO allow single line if statements. See scripts: 58-60
+  beautifiers:
+    - Prettier
+    - Pretty Diff
+    - JS-Beautify
+    - ESLint
+  wrap_line_length: 0
+  end_with_newline: true
+  indent_size: 2
+  indent_style: space
+  max_preserve_newlines: 0
+  preserve_newlines: false
+  brace_style: collapse
+  pragma_insert: false
+  pragma_require: false
+  quotes: double
+  indent_comments: true
+  align_assignments: true
+  arrow_parens: as-needed
+  break_chained_methods: false
+  comma_first: false
+  end_with_comma: false
+  end_with_semicolon: false
+  indent_chained_methods: true
+  jslint_happy: true
+  remove_trailing_whitespace: true
+  space_after_anon_function: false
+  space_before_conditional: true
+  space_in_empty_paren: false
+  space_in_paren: false
+JSON:
+  beautifiers:
+    - Prettier
+    - Pretty Diff
+    - JS-Beautify
+  indent_size: 2
+  indent_style: space
+  max_preserve_newlines: 0
+  quotes: double

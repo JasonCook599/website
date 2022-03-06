@@ -1,0 +1,22 @@
+{
+  "twelvehour": true,
+  "leadingzeros": {
+    "hour": false,
+    "minute": true,
+    "second": true
+  },
+  "separator": ".",
+  "show": {
+    "hour": true,
+    "minute": true,
+    "second": true,
+    "session": true
+  },
+  "format": {
+    "session": {
+      "PM": "PM",
+      "AM": "AM"
+    }
+  },
+  "last": true
+}

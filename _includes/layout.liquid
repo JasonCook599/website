@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <link rel="dns-prefetch" href="{{ metadata.url }}">
     <link rel="preconnect" href="{{ metadata.url }}">
@@ -9,7 +10,13 @@
     <script src="/assets/script.js"></script>
     <link rel="me" href="{{ metadata.url }}" type="text/html">
     <link rel="me" href="mailto:{{ metadata.mail }}">
-    <title>{% if title %}{{title}} - {% endif %}{{ metadata.title }}</title>
+    <title>
+      {% if title and ignoreDefaultTitle %}
+      {{title}}
+      {% else %}
+      {% if title %}{{title}} - {% endif %}{{ metadata.title }}
+      {% endif %}
+    </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ metadata.description }}">
@@ -29,14 +36,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ metadata.social }}">
     <meta name="twitter:dnt" content="on">
-</head>
+  </head>
 
-
-
-<body>
-    <!-- start of body -->
+  <body>
     {{ content | safe }}
-</body>
-
+  </body>
 
 </html>

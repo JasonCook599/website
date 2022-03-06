@@ -1,13 +1,18 @@
 body {
     font-family: sans-serif;
     /* height: 98vh; */
-    max-width: 25%;
+    /* max-width: 70%; */
     min-width: 50vh;
     margin: auto;
     background-color: white;
     background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
     background-size: 20px 20px;
     font-weight: 100;
+}
+
+div.home {
+    max-width: 30em;
+    margin: auto;
 }
 
 div.centre-vertical {
@@ -64,4 +69,23 @@ a.button1:hover {
         display: block;
         margin: 0.4em auto;
     }
+}
+
+div#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+div#time {
+    font-size: 5em;
+}
+
+div#date {
+    font-size: 2em;
+    font-weight: lighter;
 }

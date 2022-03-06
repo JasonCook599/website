@@ -1,0 +1,16 @@
+---
+permalink: /_headers
+layout: null
+---
+/*
+  Access-Control-Allow-Origin: *
+  Content-Security-Policy: default-src 'none' ; connect-src 'self' https://cloudflareinsights.com/ ; font-src data: ; img-src 'self' ; style-src 'self' ; script-src 'self' https://static.cloudflareinsights.com/beacon.min.js;
+  Permissions-Policy: document-domain=()
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+  X-Build-Date: {{ "now" | date: "%a, %d %b %Y %H:%M:%S GMT" }}
