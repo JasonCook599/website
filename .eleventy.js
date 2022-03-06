@@ -13,6 +13,9 @@ const markdownItOptions = {
 const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets")
+  eleventyConfig.addPassthroughCopy({
+    "images/**/*": "/img"
+  })
   eleventyConfig.addPassthroughCopy("functions")
   eleventyConfig.setLibrary("md", markdownLib)
   eleventyConfig.addTransform("minify-output", async function (content, outputPath) {

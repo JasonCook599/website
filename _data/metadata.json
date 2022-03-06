@@ -1,8 +1,8 @@
 {
   "title": "Tectic",
   "description": "Tectic is a tech consulting firm based in Waterloo Region.",
-  "favicon": "/assets/favicon-64.png",
-  "share": "/assets/share-image.jpg",
+  "favicon": "/img/favicon-64.png",
+  "share": "/img/share-image.jpg",
   "url": "https://www.tectic.ca",
   "author": "Jason Cook",
   "mail": "info@tectic.ca",

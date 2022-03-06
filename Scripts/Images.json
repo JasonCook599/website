@@ -1,0 +1,260 @@
+{
+  "$schema": "./Images.schema.json",
+  "Logo": [{
+    "Name": "GoogleWorkspace",
+    "Dimensions": "320x132>",
+    "FileSize": "30KB",
+    "SupportedFormats": [
+      ".png", ".gif"
+    ],
+    "Trim": true,
+    "Mode": "Pad",
+    "Reference": ["https://support.google.com/a/answer/96474?hl=en"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "Signature",
+    "Dimensions": "650x150>",
+    "Trim": true,
+    "Destination": ["Application"]
+  }, {
+    "Name": "Trim",
+    "Trim": true,
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "64",
+    "Dimensions": "x64>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "128",
+    "Dimensions": "x128>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "256",
+    "Dimensions": "x256>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "512",
+    "Dimensions": "x512>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "1024",
+    "Dimensions": "x1024>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic"]
+  }, {
+    "Name": "2048",
+    "Dimensions": "x2048>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }],
+  "Banner": [{
+    "Name": "Unifi_BG",
+    "Dimensions": "920x640>^",
+    "FileSize": "750KB",
+    "Reference": [
+      "https://help.ubnt.com/hc/en-us/articles/115000166827-UniFi-Guest-Network-Guest-Portal-and-Hotspot-System", "https://hostcheetah.com/t/ubnt-com-unifi-guest-network-guest-portal-and-hotspot-system/341"
+    ],
+    "Destination": ["Application"]
+  }, {
+    "Name": "Windows",
+    "OutExtension": ".jpg",
+    "Dimensions": "1920x1080>^",
+    "FileSize": "2MB",
+    "Reference": ["https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#resolution-for-custom-lock-screen-image"],
+    "Destination": ["Application", "Web"]
+  }, {
+    "Name": "Windows_Safe",
+    "OutExtension": ".jpg",
+    "Dimensions": "1440x1080>^",
+    "FileSize": "2MB",
+    "Reference": ["https://docs.microsoft.com/en-us/windows/configuration/windows-spotlight#resolution-for-custom-lock-screen-image"],
+    "Destination": ["Application", "Preview"]
+  }, {
+    "Name": "YouTube_Banner",
+    "Dimensions": "2048x1152>^",
+    "FileSize": "6MB",
+    "Reference": ["https://support.google.com/youtube/answer/2972003?hl=en"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "YouTube_Banner_TV",
+    "Dimensions": "2560x1440>^",
+    "FileSize": "6MB",
+    "Destination": ["Application", "Preview"]
+  }, {
+    "Name": "YouTube_Banner_DesktopAndMobile_Min",
+    "Dimensions": "1546x423>^",
+    "FileSize": "6MB",
+    "Destination": ["Application", "Preview"]
+  }, {
+    "Name": "YouTube_Banner_Tablet",
+    "Dimensions": "1855x423>^",
+    "FileSize": "6MB",
+    "Destination": ["Application", "Preview"]
+  }, {
+    "Name": "YouTube_Banner_Desktop_Max",
+    "Dimensions": "2560x423>^",
+    "FileSize": "6MB",
+    "Reference": ["https://support.google.com/youtube/answer/2972003?hl=en"],
+    "Destination": ["Application", "Preview"]
+  }, {
+    "Name": "YouTube_Banner_Safe",
+    "Dimensions": "1235x338>^",
+    "FileSize": "6MB",
+    "Mode": "Crop",
+    "Reference": ["https://support.google.com/youtube/answer/2972003?hl=en"],
+    "Destination": ["Application", "Preview"]
+  }, {
+    "Name": "YouTube_Thumbnail",
+    "Dimensions": "1280x720>^",
+    "FileSize": "2MB",
+    "Reference": ["https://support.google.com/youtube/answer/72431?hl=en#zippy=%2Cimage-size-resolution"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "Sangoma_S500",
+    "Dimensions": "480x320>^",
+    "FileSize": "256KB",
+    "Reference": ["https://wiki.freepbx.org/display/PHON/Background+Image"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "Sangoma_S700",
+    "Dimensions": "480x272>^",
+    "FileSize": "256KB",
+    "Reference": ["https://wiki.freepbx.org/display/PHON/Background+Image"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "720p",
+    "Dimensions": "1280x720>^",
+    "FileSize": "750KB",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "1080p",
+    "Dimensions": "1920x1080>^",
+    "FileSize": "750KB",
+    "Destination": ["Generic", "Web"]
+  }],
+  "Brandmark": [{
+    "Name": "Unifi_Logo",
+    "Dimensions": "x400>",
+    "FileSize": "750KB",
+    "OutExtension": ".png",
+    "SupportedFormats": [
+      ".png", ".jpg"
+    ],
+    "Trim": true,
+    "Reference": [
+      "https://help.ubnt.com/hc/en-us/articles/115000166827-UniFi-Guest-Network-Guest-Portal-and-Hotspot-System", "https://hostcheetah.com/t/ubnt-com-unifi-guest-network-guest-portal-and-hotspot-system/341"
+    ],
+    "Destination": ["Application"]
+  }, {
+    "Name": "Dropbox",
+    "Dimensions": "x256>",
+    "FileSize": "5MB",
+    "SupportedFormats": [
+      ".jpeg", ".png"
+    ],
+    "Trim": true,
+    "Reference": [
+      "https://help.dropbox.com/teams-admins/team-member/custom-branding", "https://www.dropbox.com/team/admin/settings/account"
+    ],
+    "Destination": ["Application"]
+  }, {
+    "Name": "YouTube_Profile",
+    "Dimensions": "800x800>",
+    "FileSize": "2MB",
+    "Trim": true,
+    "Mode": "Pad",
+    "SupportedFormats": [
+      ".JPG", ".GIF", ".BMP", ".PNG"
+    ],
+    "Reference": ["https://support.google.com/youtube/answer/2972003?hl=en#zippy=%2Cchange-your-profile-picture"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "YouTube_Watermark",
+    "Dimensions": "150x150>",
+    "FileSize": "1MB",
+    "Trim": true,
+    "Mode": "Pad",
+    "Reference": ["https://support.google.com/youtube/answer/2972003?hl=en#zippy=%2Cadd-your-video-watermark"],
+    "Destination": ["Application"]
+  }, {
+    "Name": "16",
+    "Dimensions": "16x16>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "32",
+    "Dimensions": "32x32>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "64",
+    "Dimensions": "64x64>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "75",
+    "Dimensions": "75x75>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "100",
+    "Dimensions": "100x100>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "128",
+    "Dimensions": "128x128>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "256",
+    "Dimensions": "256x256>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "300",
+    "Dimensions": "300x300>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "512",
+    "Dimensions": "512x512>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "1024",
+    "Dimensions": "1024x1024>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic"]
+  }, {
+    "Name": "2048",
+    "Dimensions": "2048x2048>",
+    "Trim": true,
+    "Mode": "Pad",
+    "Destination": ["Generic", "Web"]
+  }, {
+    "Name": "Trim",
+    "Trim": true,
+    "Destination": ["Generic", "Web"]
+  }]
+}
