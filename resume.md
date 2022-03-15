@@ -1,6 +1,8 @@
-# Jason Cook
-
-**226-792-2665 | jason@cookcrew.ca**
+---
+title: Jason Cook
+subtitle: 226-792-2665 | jason@cookcrew.ca
+ignoreDefaultTitle: true
+---
 
 ## WORK EXPERIENCE
 
@@ -50,5 +52,4 @@ Working at Heights. Valid until November 2023.
 
 ## LINKS
 
-GitHub: <https://github.com/JasonCook599>
-Personal Site: <https://jasoncook.ca>
+[GitHub](https://github.com/JasonCook599){.button1} [LinkedIn](https://www.linkedin.com/){.button1} [Contact](mailto:{{ metadata.mail }}){.button1}

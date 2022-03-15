@@ -3,8 +3,6 @@ layout: layout.liquid
 title: Email Setup
 ---
 
-# {{ title }}
-
 Looking professional matters, and that means communicating as you@yourcompany.com. We can setup a new, professional email address and migrating your old profile to the new account.
 
 We offer two different services, Google Workspace from Google and Microsoft 365 from Microsoft. Both services are similar in both features an cost. Not sure which one is best for you? Just ask!

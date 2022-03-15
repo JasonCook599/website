@@ -1,13 +1,36 @@
 body {
     font-family: sans-serif;
     /* height: 98vh; */
-    /* max-width: 70%; */
+    max-width: 70%;
     min-width: 50vh;
     margin: auto;
     background-color: white;
     background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
     background-size: 20px 20px;
     font-weight: 100;
+}
+
+div.container {
+    margin: auto;
+    height: fit-content;
+    padding: 2em 4em;
+    align-items: center;
+    gap: 2em;
+}
+
+@media (max-width: 25em) {
+    div.container {
+        padding: 6vw 3vw;
+    }
+}
+
+div.container>div.title {
+    padding: 0;
+}
+
+h1>a {
+    color: initial;
+    text-decoration: initial;
 }
 
 div.home {
