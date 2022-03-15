@@ -49,7 +49,6 @@ CSS:
   no_leading_zero: true
   selector_separator_newline: true
 JavaScript:
-  # TODO allow single line if statements. See scripts: 58-60
   beautifiers:
     - Prettier
     - Pretty Diff
@@ -59,8 +58,8 @@ JavaScript:
   end_with_newline: true
   indent_size: 2
   indent_style: space
-  max_preserve_newlines: 0
-  preserve_newlines: false
+  max_preserve_newlines: 3
+  preserve_newlines: true
   brace_style: collapse
   pragma_insert: false
   pragma_require: false
