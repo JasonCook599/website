@@ -94,20 +94,24 @@ a.button1:hover {
 }
 
 div#clock {
+    font-family: 'Fira Code', 'Roboto Mono', monospace;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 98%;
     text-align: center;
 }
 
-div#time {
-    font-size: 5em;
+div#title {
+    font-size: 14vw;
+    display: inline-block;
+    white-space: nowrap;
 }
 
-div#date {
-    font-size: 2em;
+div#subtitle {
+    font-size: 3vw;
     font-weight: lighter;
+    font-style: italic;
 }
