@@ -23,9 +23,9 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "clean-css": "^5.2.2",
-    "terser": "^5.9.0",
     "html-minifier": "^4.0.0",
+    "markdown-it": "^12.2.0",
     "markdown-it-attrs": "^4.1.0",
-    "markdown-it": "^12.2.0"
+    "terser": "^5.9.0"
   }
 }
