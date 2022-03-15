@@ -7,6 +7,9 @@
     "Title": "LinkedIn",
     "Url": "https://www.linkedin.com/"
   }, {
+    "Title": "Resume",
+    "Url": "/resume/"
+  }, {
     "Title": "Contact",
     "Url": "mailto:jason@jasoncook.ca"
   }]
