@@ -23,6 +23,5 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "markdownlint.customRules": ["front_matter_title: \"\""],
   "editor.tabSize": 2
 }

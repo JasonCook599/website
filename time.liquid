@@ -1,8 +1,14 @@
 ---
-layout: layout.liquid
 title: Clock
+ignoreDefaultTitle: true
+hideTitle: true
 ---
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.0/dayjs.min.js" integrity="sha512-KTFpdbCb05CY4l242bLjyaPhoL9vAy4erP1Wkn7Rji0AG6jx6zzGtKkdHc7jUOYOVSmbMbTg728u260CA/Qugg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitty/2.3.6/fitty.min.js" integrity="sha512-7U91NJISL6PgUHhYsU0MEEKGqx0dsOvweOAivSTcOYg1jk0fpWBuDAp09uThu33/c3F7uORGaBXFTKz0g2oHNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <div id="clock">
-  <div id="time"></div>
-  <div id="date"></div>
+  <div id="title"></div>
+  <div id="subtitle"></div>
 </div>

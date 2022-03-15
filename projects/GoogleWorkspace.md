@@ -3,7 +3,7 @@ layout: layout.liquid
 title: Google Workspace
 ---
 
-# You are moving to Google Workspace!
+## You are moving to Google Workspace!
 
 We’re pleased to announce that your company has chosen Google Workspace for its new email and calendar platform. We, along with your IT team, are working on the migration and look forward to moving employees from the existing platform to the new services in the coming weeks/months. This process will begin with a group of selected "early adopters" and then continue phasing in the services with additional groups of employees.
 
@@ -13,7 +13,7 @@ Google Workspace is a set of web-based messaging and collaboration applications 
 
 For a quick overview of Google Workspace and why we’re so excited about the switch, check out the video below!
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EZmXEFGFeNA/0.jpg)](https://youtu.be/EZmXEFGFeNA)
+[![Introducing G Suite Thumbnail](https://img.youtube.com/vi/EZmXEFGFeNA/0.jpg)](https://youtu.be/EZmXEFGFeNA)
 
 ## Why did we choose Google Workspace?
 
@@ -32,7 +32,7 @@ By choosing Google Workspace, for the email and calendar solution, your organiza
 
 Your new Google Workspace account can include the following services. Depending on your organizations requirements, some service may not be enabled.
 
-# Icons
+<!-- TODO: Add icons -->
 
 **With these apps, here are some of the key benefits we think you'll enjoy. Again, depending on your organizations requirements, some service may not be enabled.**
 

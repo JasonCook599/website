@@ -1,13 +1,36 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* height: 98vh; */
-    /* max-width: 70%; */
+    max-width: 70%;
     min-width: 50vh;
     margin: auto;
     background-color: white;
     background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
     background-size: 20px 20px;
     font-weight: 100;
+}
+
+div.container {
+    margin: auto;
+    height: fit-content;
+    padding: 2em 4em;
+    align-items: center;
+    gap: 2em;
+}
+
+@media (max-width: 25em) {
+    div.container {
+        padding: 6vw 3vw;
+    }
+}
+
+div.container>div.title {
+    padding: 0;
+}
+
+h1>a {
+    color: initial;
+    text-decoration: initial;
 }
 
 div.home {
@@ -52,7 +75,6 @@ a.button1 {
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #000000;
     text-align: center;
@@ -72,20 +94,24 @@ a.button1:hover {
 }
 
 div#clock {
+    font-family: 'Fira Code', 'Roboto Mono', monospace;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 98%;
     text-align: center;
 }
 
-div#time {
-    font-size: 5em;
+div#title {
+    font-size: 14vw;
+    display: inline-block;
+    white-space: nowrap;
 }
 
-div#date {
-    font-size: 2em;
+div#subtitle {
+    font-size: 3vw;
     font-weight: lighter;
+    font-style: italic;
 }

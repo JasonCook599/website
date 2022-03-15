@@ -39,7 +39,15 @@
   </head>
 
   <body>
-    {{ content | safe }}
+    <div class="container">
+      {% unless hideTitle %}
+      <div class="title">
+        {% if title %}<h1><a href="/">{{title}}</a></h1>{% endif %}
+        {% if subtitle %}<h2>{{subtitle}}</h2>{% endif %}
+        {% endunless %}
+      </div>
+      {{ content | "safe" }}
+    </div>
   </body>
 
 </html>
