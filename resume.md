@@ -12,12 +12,15 @@ _AV/IT Technician - Full Time_
 _March 2014 - Present_
 _850 Sawmill Road, Bloomingdale, ON N0B 1K0_
 
-- Configure, purchase, and maintain all IT resources. Key technologies include Microsoft 365, Active Directory, and UniFi Networking.
-- Provide scheduled and on-call support to users.
-- Install, support and maintain all audio, video, and lighting equipment. Key technologies include Behringer X32 console, Blackmagic Design cameras and switchers, Vista lighting software.
-- Work with other teams to understand and execute their vision for services, conferences, concerts and other events.
-- Coach, train, and support a team of over 50 volunteers.
-- Started by volunteering on the Production Team in September 2007.
+- Purchase, configure, and maintain all IT resources
+- Supervise and assign work duties to other IT staff
+- Provide remote and in-person IT support to users
+- Write simple documentation and training guides for users
+- Write detailed technical documentation for other IT staff
+- Manage physical and virtual servers using Hyper-V
+- Manage Windows Server services including AD, NPS, DNS, GPO, IIS, PKI, File and Print
+- Manage Microsoft 365, including AAD, Exchange, Teams, Intune
+- Manage local and off-site backups, including regular integrity checks
 
 ### Tectic
 
@@ -25,9 +28,9 @@ _Owner/Operator_
 _May 2014- Present_
 
 - Provide IT support and consulting for small businesses throughout southwestern Ontario
-- Responsible for running audio at various pubs, bars, and clubs.
-- Worked directly with musicians to understand their requirements and provide needed supplies.
-- Lead and assist teams in setup and teardown for concerts and events.
+- Audio engineer for music events at various pubs, bars, and clubs
+- Worked directly with musicians to understand their requirements and provide needed supplies
+- Lead and assist teams in setup and teardown for concerts and events
 
 ## SKILLS
 
