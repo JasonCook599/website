@@ -70,20 +70,20 @@ img.profile {
 a.button1 {
     display: inline-block;
     padding: 0.35em 1.2em;
-    border: 0.1em solid #000000;
+    border: 0.1em solid black;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
     font-weight: 300;
-    color: #000000;
+    color: black;
     text-align: center;
     transition: all 0.2s;
 }
 
 a.button1:hover {
-    color: #ffffff;
-    background-color: #000000;
+    color: white;
+    background-color: black;
 }
 
 @media all and (max-width:30em) {
@@ -114,4 +114,22 @@ div#subtitle {
     font-size: 3vw;
     font-weight: lighter;
     font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        background-image: radial-gradient(rgb(66, 66, 66) 1px, black 1px);
+        color: white;
+    }
+    a.button1 {
+        /* background-color: black; */
+        border: 0.1em solid white;
+        color: white;
+    }
+    
+    a.button1:hover {
+        color: black;
+        background-color: white;
+    }
 }
