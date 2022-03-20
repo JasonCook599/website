@@ -4,12 +4,11 @@ subtitle: 226-792-2665 | jason@cookcrew.ca
 ignoreDefaultTitle: true
 ---
 
-## WORK EXPERIENCE
+## Work Experience
 
 ### AV/IT Technician
 
-_Koinonia Christian Fellowship_
-_March 2014 - Present_
+Koinonia Christian Fellowship _(March 2014 - Present)_
 
 - Purchase, configure, and maintain all IT resources.
 - Supervise and assign work duties to other IT staff.
@@ -23,15 +22,14 @@ _March 2014 - Present_
 
 ### Owner/Operator
 
-_Tectic_
-_May 2014- Present_
+Tectic _(May 2014- Present)_
 
 - Provide IT support and consulting for small businesses throughout southwestern Ontario.
 - Provide A/V support for corporate events and conferences, including audio engineering and camera operator.
 - Audio engineer for music events at various pubs, bars, and clubs. Worked directly with musicians to understand their requirements and provide needed supplies.
 - Lead and assist teams in setup and teardown for concerts and corporate events.
 
-## SKILLS
+## Skills
 
 - Computer Networking
 - Computer Hardware
@@ -48,27 +46,25 @@ _May 2014- Present_
 - PowerShell
 - Shell Scripting
 
-## CERTIFICATIONS
+## Certifications
 
 - Working at Heights
 - Safe Sets COVID-19 Level A
 - Dante Level 3
 - Q-SYS Level 1
 
-## EDUCATION
+## Education
 
 ### Ontario Secondary School Diploma
 
-_Grand River Collegiate Institute_
-_Sep. 2009 - June 2013_
+Grand River Collegiate Institute _(Sep. 2009 - June 2013)_
 
 - Communication Technology High Skills Major
 - Graduated as an Ontario Scholar
 
 ### Servant Leadership Institute
 
-_Koinonia Christian Fellowship_
-_Sep. 2013 - June 2014_
+Koinonia Christian Fellowship - _(Sep. 2013 - June 2014)_
 
 - Ten-month internship focused on personal leadership and development.
 - Received practical teaching and instructions from onsite leaders and course materials from others around the world.
