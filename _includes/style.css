@@ -1,11 +1,30 @@
-body {
+:root {
+    /* https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%231f1f1f%2C%20Black%0D%0A%23337888%2C%20Accent%201%0D%0A%236D597A%2C%20Accent%202%0D%0A%23AF5A6C%2C%20Accent%203%0D%0A%230F4C6B%2C%20Accent%204%0D%0A%23DA2F35%2C%20Accent%205%0D%0A%2374B156%2C%20Accent%206%0D%0A%23EBC271%2C%20Accent%207%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa */
+    --light: white;
+    --dark: #1F1F1F;
+    
+    --good: #74B156;
+    --warning: #EBC271;
+    --bad: #DA2F35;
+    
+    --accent: #337888;
+    --accent1: var(--accent);
+    --accent2: #6D597A;
+    --accent3: #AF5A6C;
+    --accent4: #0F4C6B;
+    --accent5: var(--bad);
+    --accent6: var(--good);
+    --accent7: var(--warning);
+  }
+  
+  body {
     font-family: 'Roboto', sans-serif;
     /* height: 98vh; */
     max-width: 70%;
     min-width: 50vh;
     margin: auto;
-    background-color: white;
-    background-image: radial-gradient(rgb(189, 189, 189) 1px, white 1px);
+    background-color: var(--light);
+    background-image: radial-gradient(rgb(189, 189, 189) 1px, var(--light) 1px);
     background-size: 20px 20px;
     font-weight: 100;
 }
@@ -82,8 +101,8 @@ a.button1 {
 }
 
 a.button1:hover {
-    color: white;
-    background-color: black;
+    color: var(--background);
+    background-color: var(--foreground);
 }
 
 @media all and (max-width:30em) {
@@ -118,23 +137,23 @@ div#subtitle {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
-        background-image: radial-gradient(rgb(66, 66, 66) 1px, black 1px);
-        color: white;
+        background-color: var(--dark);
+        background-image: radial-gradient(rgb(66, 66, 66) 1px, var(--dark) 1px);
+        color: var(--light);
     }
     
     h1>a {
-        color: white;
+        color: var(--light);
     }
     
     a.button1 {
         /* background-color: black; */
-        border: 0.1em solid white;
-        color: white;
+        border: 0.1em solid var(--light);
+        color: var(--light);
     }
     
     a.button1:hover {
-        color: black;
-        background-color: white;
+        color: var(--dark);
+        background-color: var(--light);
     }
 }

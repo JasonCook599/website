@@ -6,31 +6,30 @@ ignoreDefaultTitle: true
 
 ## WORK EXPERIENCE
 
-### Koinonia Christian Fellowship
+### AV/IT Technician
 
-_AV/IT Technician - Full Time_
+_Koinonia Christian Fellowship_
 _March 2014 - Present_
-_850 Sawmill Road, Bloomingdale, ON N0B 1K0_
 
-- Purchase, configure, and maintain all IT resources
-- Supervise and assign work duties to other IT staff
-- Provide remote and in-person IT support to users
-- Write simple documentation and training guides for users
-- Write detailed technical documentation for other IT staff
-- Manage physical and virtual servers using Hyper-V
-- Manage Windows Server services including AD, NPS, DNS, GPO, IIS, PKI, File and Print
-- Manage Microsoft 365, including AAD, Exchange, Teams, Intune
-- Manage local and off-site backups, including regular integrity checks
+- Purchase, configure, and maintain all IT resources.
+- Supervise and assign work duties to other IT staff.
+- Provide remote and in-person support to users.
+- Write simple documentation and training guides for users. Write detailed technical documentation for other IT staff.
+- Manage physical and virtual servers using Hyper-V. Manage local and off-site backups, including regular integrity checks.
+- Manage Windows Server services including AD, NPS, DNS, GPO, IIS, PKI, File and Print.
+- Manage Microsoft 365, including AAD, Exchange, SharePoint, Teams, Intune.
+- Coordinate and support technical elements for large events, including conferences, music events, and weddings.
+- Lead a technical team of 50+ volunteers to support weekly services and special events.
 
-### Tectic
+### Owner/Operator
 
-_Owner/Operator_
+_Tectic_
 _May 2014- Present_
 
-- Provide IT support and consulting for small businesses throughout southwestern Ontario
-- Audio engineer for music events at various pubs, bars, and clubs
-- Worked directly with musicians to understand their requirements and provide needed supplies
-- Lead and assist teams in setup and teardown for concerts and events
+- Provide IT support and consulting for small businesses throughout southwestern Ontario.
+- Provide A/V support for corporate events and conferences, including audio engineering and camera operator.
+- Audio engineer for music events at various pubs, bars, and clubs. Worked directly with musicians to understand their requirements and provide needed supplies.
+- Lead and assist teams in setup and teardown for concerts and corporate events.
 
 ## SKILLS
 
@@ -51,7 +50,29 @@ _May 2014- Present_
 
 ## CERTIFICATIONS
 
-Working at Heights. Valid until November 2023.
+- Working at Heights
+- Safe Sets COVID-19 Level A
+- Dante Level 3
+- Q-SYS Level 1
+
+## EDUCATION
+
+### Ontario Secondary School Diploma
+
+_Grand River Collegiate Institute_
+_Sep. 2009 - June 2013_
+
+- Communication Technology High Skills Major
+- Graduated as an Ontario Scholar
+
+### Servant Leadership Institute
+
+_Koinonia Christian Fellowship_
+_Sep. 2013 - June 2014_
+
+- Ten-month internship focused on personal leadership and development.
+- Received practical teaching and instructions from onsite leaders and course materials from others around the world.
+- Co-lead a weekly afterschool program at a local community centre.
 
 ## LINKS
 

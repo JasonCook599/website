@@ -3,8 +3,6 @@ layout: layout.liquid
 title: WiFi & Networking
 ---
 
-# {{ title }}
-
 ![WiFi Icon](wifi.png)
 
 Your business relies on more and more interconnected devices. Laptops, phones, printers, servers, and more all need to be connected, both to each other and to the internet, to work properly. As your network grows, it becomes more complex and may have begun to slow down.
