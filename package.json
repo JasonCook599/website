@@ -2,30 +2,33 @@
   "name": "jason-cook-web",
   "version": "1.0.0",
   "description": "A website for Tectic, a tech consulting firm based in Waterloo Region.",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve",
+    "dev": "npx wrangler pages dev --proxy 8080 --port 8788 -- eleventy --serve",
+    "eleventy": "eleventy --serve",
+    "wrangler": "npx wrangler pages dev _site --proxy 8080 --port 8788",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy --dryrun",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf _site"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JasonCook599/jc.git"
+    "url": "git+https://github.com/JasonCook599/website.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JasonCook599/jc/issues"
+    "url": "https://github.com/JasonCook599/website/issues"
   },
-  "homepage": "https://github.com/JasonCook599/jc#readme",
+  "homepage": "https://github.com/JasonCook599/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "clean-css": "^5.2.2",
     "html-minifier": "^4.0.0",
     "markdown-it": "^12.2.0",
     "markdown-it-attrs": "^4.1.0",
-    "terser": "^5.9.0"
+    "terser": "^5.9.0",
+    "wrangler": "^0.0.21"
   }
 }

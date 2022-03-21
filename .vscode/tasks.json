@@ -5,6 +5,6 @@
     "script": "dev",
     "problemMatcher": [],
     "label": "npm: dev",
-    "detail": "eleventy --serve"
+    "detail": "wrangler & eleventy"
   }]
 }
