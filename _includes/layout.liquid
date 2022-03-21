@@ -44,8 +44,8 @@
       <div class="title">
         {% if title %}<h1><a href="/">{{title}}</a></h1>{% endif %}
         {% if subtitle %}<h2>{{subtitle}}</h2>{% endif %}
-        {% endunless %}
       </div>
+      {% endunless %}
       {{ content | "safe" }}
     </div>
   </body>

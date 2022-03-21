@@ -20,7 +20,9 @@ export async function onRequest(context) {
   // Check origin. If allowed, return in header. Otherwise return first origin in list.
   const checkOrigin = request => {
     const foundOrigin = allowedOrigins.find(allowedOrigin => allowedOrigin.includes(request.headers.get("Origin")))
-    return foundOrigin ? foundOrigin : allowedOrigins[0]
+    return foundOrigin ?
+      foundOrigin :
+      allowedOrigins[0]
   }
   // Check if origin is valid
   const allowedOrigin = checkOrigin(request)
@@ -41,7 +43,7 @@ export async function onRequest(context) {
     }
     // create json response
     const dateJson = JSON.stringify({
-      date: new Date(Date.now() - 1000 * 60 * 60)
+      date: new Date(Date.now())
     })
     return new Response(dateJson, {
       headers: responseHeaders

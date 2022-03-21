@@ -65,7 +65,7 @@
             "description": "Where should we position the crop?",
             "enum": [
               "NorthWest",
-              "Noth",
+              "North",
               "NorthEast",
               "West",
               "Center",
