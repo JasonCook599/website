@@ -157,15 +157,11 @@ div#subtitle {
     font-style: italic;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body {
         background-color: var(--dark);
         background-image: radial-gradient(rgb(66, 66, 66) 1px, var(--dark) 1px);
         color: var(--light);
-    }
-
-    h1, h2 {
-        color: var(--accent3);
     }
 
     div.title>h1>a, div.title>h2 {
@@ -173,7 +169,7 @@ div#subtitle {
     }
     
     a.button1 {
-        // background-color: black; 
+        /* background-color: black;  */
         border: 0.1em solid var(--light);
         color: var(--light);
     }
@@ -183,4 +179,3 @@ div#subtitle {
         background-color: var(--light);
     }
 } 
-*/
