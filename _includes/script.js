@@ -32,10 +32,12 @@ async function updateTime() {
   offset = await getTimeOffset(3600000, offset)
 
   // Get preferences
-  prefs = await getPreferences()
+  if (prefs == null) {
+    prefs = await getPreferences()
+  }
 
   //Set date based on offset
-  var date = new Date(Date.now() + offset)
+  let date = new Date(Date.now() + offset)
 
   // https://day.js.org/docs/en/display/format#list-of-all-available-formats
   timeTitle = dayjs(date).format(prefs.titleFormat)
@@ -56,6 +58,7 @@ function load() {
   if (document.getElementById("clock")) {
     remoteTimeLastCheck = null
     offset = null
+    prefs = null
     updateTime()
   }
 }
