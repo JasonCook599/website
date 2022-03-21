@@ -61,7 +61,7 @@ div.centre-vertical {
     min-height: 200px;
 }
 
-h2, h3, h3+p, h3+p+ul, h2+ul {
+h2, h3, h3+p, h3+p+ul, h2+ul, h3+ul {
     margin: 0;
 }
 
@@ -89,6 +89,16 @@ div.title>h1>a {
     text-decoration: none;
     color: var(--dark)
 }
+
+ul {
+    padding-inline-start: 0.75em;
+    list-style-type: "-";
+}
+
+li {padding-left: 0.75em;}
+
+ul.columns-2 {    column-count: 2;}
+ul.columns-3 {    column-count: 3;}
 
 img.profile {
     width: 20em;
