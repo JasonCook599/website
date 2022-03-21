@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
     } else if (outputPath && outputPath.endsWith(".css")) {
       return new CleanCSS().minify(content).styles
     } else if (outputPath && outputPath.endsWith(".js")) {
-      var result = await minify(content)
+      let result = await minify(content)
       return result.code
     } else {
       return content

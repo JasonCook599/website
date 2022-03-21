@@ -1,16 +1,29 @@
 {
   "cSpell.words": [
+    "dryrun",
     "Eleventy",
     "fitty",
     "Intune",
     "leadingzeros",
     "linkify",
+    "middlewares",
     "oldoffset",
+    "paren",
+    "parens",
     "prefs",
     "Shortlink",
     "Tectic",
     "templating",
-    "twelvehour"
+    "twelvehour",
+    "HSTS",
+    "preload",
+    "Unifi",
+    "Sangoma",
+    "brandmark",
+    "Unifi",
+    "timesheet",
+    "cutover",
+    "passwordless"
   ],
   "editor.defaultFormatter": "Glavin001.unibeautify-vscode",
   "editor.formatOnSave": true,
@@ -25,5 +38,11 @@
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "markdownlint.config": {
+    "default": true,
+    "MD026": {
+      "punctuation": ".,;:!。，；：" //TODO make this rule work. See GoogleWorkspace.md.
+    }
+  }
 }

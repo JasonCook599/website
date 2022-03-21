@@ -1,1 +1,1 @@
-module.exports = "layout.liquid";
+module.exports = "layout.liquid"
