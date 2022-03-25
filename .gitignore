@@ -15,3 +15,6 @@ _site
 .env
 
 .ignore
+
+# Cloudflare KV
+.mf
