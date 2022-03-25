@@ -83,4 +83,4 @@ Koinonia Christian Fellowship - _(Sep. 2013 - June 2014)_
 
 ## LINKS
 
-[GitHub](https://github.com/JasonCook599){.button1} [LinkedIn](https://www.linkedin.com/){.button1} [Contact](mailto:{{ metadata.mail }}){.button1}
+[GitHub](https://github.com/JasonCook599){.button1} [LinkedIn](https://www.linkedin.com/in/jasoncook599/){.button1} [Contact](mailto:{{ metadata.mail }}){.button1}
