@@ -12,7 +12,7 @@ Koinonia Christian Fellowship _(March 2014 - Present)_
 
 - Purchase, configure, and maintain all IT resources.
 - Supervise and assign work duties to other IT staff.
-- Provide remote and in-person support to users.
+- Provide remote and in-person support to users, including the staff and students of a private K-8 school.
 - Write simple documentation and training guides for users and detailed technical documentation for other IT staff.
 - Manage physical and virtual servers using Hyper-V. Manage local and off-site backups, including regular integrity checks.
 - Manage Windows Server services including AD, NPS, DNS, GPO, IIS, Certificate Authority, File and Print.
