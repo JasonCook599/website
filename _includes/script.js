@@ -1,17 +1,20 @@
-async function getRemoteTime() {
-  return new Date((await (await fetch("/api/date")).json()).date)
-}
-
 async function getTimeOffset(interval, oldoffset) {
   if (remoteTimeLastCheck == null || remoteTimeLastCheck < new Date(Date.now() - interval)) {
     remoteTimeLastCheck = Date.now()
     try {
-      offset = (await getRemoteTime()) - new Date()
-      console.log("Your clock is off by " + offset + "ms")
-      return offset
+      const start = Date.now()
+      const date = new Date((await (await fetch("/api/date")).json()).date)
+      const end = Date.now()
+      return {
+        lastCheck: new Date((start + end) / 2),
+        latency: end - start,
+        offset: date - start
+      }
     } catch (error) {
       console.log(error)
-      return 0
+      return {
+        offset: 0
+      }
     }
   } else {
     return oldoffset
@@ -29,7 +32,7 @@ async function getPreferences() {
 
 async function updateTime() {
   // Get time offset once per hour. 3600000 = 60 seconds * 60 minutes * 1000 milliseconds
-  offset = await getTimeOffset(3600000, offset)
+  RemoteTime = await getTimeOffset(3600000, RemoteTime)
 
   // Get preferences
   if (prefs == null) {
@@ -37,7 +40,7 @@ async function updateTime() {
   }
 
   //Set date based on offset
-  let date = new Date(Date.now() + offset)
+  let date = new Date(Date.now() + RemoteTime.offset)
 
   // https://day.js.org/docs/en/display/format#list-of-all-available-formats
   timeTitle = dayjs(date).format(prefs.titleFormat)
@@ -57,7 +60,7 @@ function load() {
   // Only run clock code on clock page.
   if (document.getElementById("clock")) {
     remoteTimeLastCheck = null
-    offset = null
+    RemoteTime = null
     prefs = null
     updateTime()
   }
