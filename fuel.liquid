@@ -1,0 +1,39 @@
+---
+title: Trip Fuel Calculator
+subtitle: You can use this page to calculate the fuel consumption of your trip.
+---
+<BR><BR>
+<div>
+  <form id="FuelForm">
+    <div>
+      <label for="distance">Distance</label>
+      <input id="distance" name="distance" type="number" step="any" required placeholder="km">
+    </div>
+    <div>
+      <label for="cost">Cost</label>
+      <input id="cost" name="cost" type=number step="any" required placeholder="$/L">
+    </div>
+    <div>
+      <label for="efficiency">Efficiency</label>
+      <input id="efficiency" name="efficiency" type="number" step="any" required placeholder="L/100 km">
+    </div>
+    <div>
+      <fieldset id="TripType" data-role="controlgroup" data-type="horizontal" data-mini="true">
+        <legend>TripType</legend>
+        <label for="TripType-mix">Mixed</label>
+        <input id="TripType-mix" name="TripType" type="radio" value="mix">
+        <label for="TripType-highway">Highway</label>
+        <input id="TripType-highway" name="TripType" type="radio" value="highway">
+        <label for="TripType-city">City</label>
+        <input id="TripType-city" name="TripType" type="radio" value="city">
+      </fieldset>
+    </div>
+    <div>
+      <label for="TripCost">Trip Cost</label>
+      <input id="TripCost" name="TripCost" type="text" placeholder="Click submit to see the cost" readonly>
+    </div>
+    <div>
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>

@@ -5,9 +5,9 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "eleventy",
-    "dev": "npx wrangler pages dev --proxy 8080 --port 8788 -- eleventy --serve",
+    "dev": "npx wrangler pages dev --proxy 8080 --port 8788 --kv coffee -- eleventy --serve",
     "eleventy": "eleventy --serve",
-    "wrangler": "npx wrangler pages dev _site --proxy 8080 --port 8788",
+    "wrangler": "npx wrangler pages dev _site --proxy 8080 --port 8788 --kv coffee",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy --dryrun",
     "clean": "rimraf _site"
   },
