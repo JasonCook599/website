@@ -6,9 +6,30 @@ ignoreDefaultTitle: true
 
 ## Work Experience
 
+### IT Specialist
+
+Dennis Group Canada _(April 2022- Present)_
+
+- Lead the integration of the Canadian IT systems with the other global offices.
+- Purchase, configure, and maintain all IT resources for all Canadian offices.
+- Provide helpdesk support to users globally.
+- Manage physical and virtual servers using VMware and Hyper-V.
+- Manage Windows Server services and Microsoft 365.
+- Manage local and off-site backups, including regular integrity checks.
+
+### President
+
+Waterloo North Condo Corporation #146 _(September 2021 - Present)_
+
+- Oversee all aspects of the condo corporation.
+- Work with the Property Manager and contractors to ensure the property is well maintained.
+- Create yearly budgets to ensure adequate funding for both operation and reserve funds.
+- Review financial statements and reporting to ensure the condo fees are well utilized.
+- Respond to the concerns of owners and mediate disputes between owners.
+
 ### AV/IT Technician
 
-Koinonia Christian Fellowship _(March 2014 - Present)_
+Koinonia Christian Fellowship _(March 2014 - April 2022)_
 
 - Purchase, configure, and maintain all IT resources.
 - Supervise and assign work duties to other IT staff.
