@@ -11,11 +11,12 @@ ignoreDefaultTitle: true
 Dennis Group Canada _(April 2022- Present)_
 
 - Lead the integration of the Canadian IT systems with the other global offices.
+- Lead integration and automation efforts using RMM and PSA software
 - Purchase, configure, and maintain all IT resources for all Canadian offices.
-- Provide helpdesk support to users globally.
 - Manage physical and virtual servers using VMware and Hyper-V.
 - Manage Windows Server services and Microsoft 365.
 - Manage local and off-site backups, including regular integrity checks.
+- Provide helpdesk support to users globally.
 
 ### President
 
@@ -78,10 +79,11 @@ Tectic _(May 2014- Present)_
 
 ## Certifications
 
-- Working at Heights
-- Safe Sets COVID-19 Level A
+- 3CX Intermediate Certified Engineer v18
 - Dante Level 3
 - Q-SYS Level 1
+- Working at Heights
+- Safe Sets COVID-19 Level A
 
 {.columns-2}
 
@@ -104,4 +106,4 @@ Koinonia Christian Fellowship - _(Sep. 2013 - June 2014)_
 
 ## LINKS
 
-[GitHub](https://github.com/JasonCook599){.button1} [LinkedIn](https://www.linkedin.com/in/jasoncook599/){.button1} [Contact](mailto:{{ metadata.mail }}){.button1}
+[GitHub](https://github.com/JasonCook599){.button1} [LinkedIn](https://www.linkedin.com/in/jasoncook599/){.button1} [Email](mailto:{{ metadata.mail }}){.button1}
