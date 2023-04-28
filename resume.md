@@ -79,7 +79,7 @@ Tectic _(May 2014- Present)_
 
 ## Certifications
 
-- 3CX Intermediate Certified Engineer v18
+- 3CX Advanced Certified Engineer v18
 - Dante Level 3
 - Q-SYS Level 1
 - Working at Heights
