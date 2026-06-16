@@ -2,7 +2,7 @@ const CleanCSS = require("clean-css")
 const {
   minify
 } = require("terser")
-const htmlmin = require("html-minifier")
+const htmlmin = require("html-minifier-terser")
 const markdownIt = require("markdown-it")
 const markdownItAttrs = require("markdown-it-attrs")
 const markdownItOptions = {
