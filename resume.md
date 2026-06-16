@@ -6,6 +6,14 @@ ignoreDefaultTitle: true
 
 ## Work Experience
 
+### Owner/Operator
+
+Tectic _(May 2014- Present)_
+
+- Provide IT consulting for small businesses throughout southwestern Ontario.
+- Provide A/V design services for corporate events and conferences.
+- Lead and assist teams in setup and teardown for concerts and corporate events.
+
 ### IT Specialist
 
 Dennis Group Canada _(April 2022- Present)_
@@ -20,7 +28,7 @@ Dennis Group Canada _(April 2022- Present)_
 
 ### President
 
-Waterloo North Condo Corporation #146 _(September 2021 - Present)_
+Waterloo North Condo Corporation #146 _(September 2021 - September 2024)_
 
 - Oversee all aspects of the condo corporation.
 - Work with the Property Manager and contractors to ensure the property is well maintained.
@@ -41,15 +49,6 @@ Koinonia Christian Fellowship _(March 2014 - April 2022)_
 - Manage Microsoft 365, including AAD, Exchange, SharePoint, Teams, Intune.
 - Coordinate and support technical elements for large events, including conferences, music events, and weddings.
 - Lead a team of 50+ volunteers to support weekly services and special events.
-
-### Owner/Operator
-
-Tectic _(May 2014- Present)_
-
-- Provide IT support and consulting for small businesses throughout southwestern Ontario.
-- Provide A/V support for corporate events and conferences, including audio engineering and camera operator.
-- Audio engineer for music events at various pubs, bars, and clubs. Worked directly with musicians to understand their requirements and provide needed supplies.
-- Lead and assist teams in setup and teardown for concerts and corporate events.
 
 ## Projects
 
@@ -79,6 +78,8 @@ Tectic _(May 2014- Present)_
 
 ## Certifications
 
+- Certified Information Systems Security Professional (CISSP)
+- Fortinet NSE 4 Esam
 - 3CX Advanced Certified Engineer v18
 - Dante Level 3
 - Q-SYS Level 1
