@@ -29,6 +29,6 @@
     "markdown-it": "^14.2.0",
     "markdown-it-attrs": "^5.0.0",
     "terser": "^5.14.2",
-    "wrangler": "^4.100.0"
+    "wrangler": "^4.104.0"
   }
 }
