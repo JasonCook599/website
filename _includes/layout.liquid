@@ -6,15 +6,24 @@
     <link rel="dns-prefetch" href="{{ metadata.url }}">
     <link rel="preconnect" href="{{ metadata.url }}">
     <link rel="stylesheet" href="/assets/styles.css">
-    <link rel="icon" type="image/png" href="{{ metadata.favicon }}">
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ metadata.favicon }}">
     <script src="/assets/script.js"></script>
-    <link rel="me" href="{{ metadata.url }}" type="text/html">
+    <link
+      rel="me"
+      href="{{ metadata.url }}"
+      type="text/html">
     <link rel="me" href="mailto:{{ metadata.mail }}">
     <title>
       {% if title and ignoreDefaultTitle %}
-      {{title}}
+        {{ title }}
       {% else %}
-      {% if title %}{{title}} - {% endif %}{{ metadata.title }}
+        {% if title %}
+          {{ title }} -
+        {% endif %}
+        {{ metadata.title }}
       {% endif %}
     </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,10 +50,16 @@
   <body>
     <div class="container">
       {% unless hideTitle %}
-      <div class="title">
-        {% if title %}<h1><a href="/">{{title}}</a></h1>{% endif %}
-        {% if subtitle %}<h2>{{subtitle}}</h2>{% endif %}
-      </div>
+        <div class="title">
+          {% if title %}
+            <h1>
+              <a href="/">{{ title }}</a>
+            </h1>
+          {% endif %}
+          {% if subtitle %}
+            <h2>{{ subtitle }}</h2>
+          {% endif %}
+        </div>
       {% endunless %}
       {{ content }}
     </div>
