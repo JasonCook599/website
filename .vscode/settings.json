@@ -25,14 +25,9 @@
     "twelvehour",
     "Unifi"
   ],
-  "editor.defaultFormatter": "Glavin001.unibeautify-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "formatFiles.excludedFolders": [
-    "node_modules", ".git", "_site"
-  ],
+  "formatFiles.excludedFolders": ["node_modules", ".git", "_site"],
   "formatFiles.excludePattern": "*(package-lock.json|headers.liquid|sitemap.liquid)",
   "formatFiles.useGitIgnore": true,
   "[ignore]": {
@@ -44,5 +39,8 @@
     "MD026": {
       "punctuation": ".,;:!。，；：" //TODO make this rule work. See GoogleWorkspace.md.
     }
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid"
   }
 }
