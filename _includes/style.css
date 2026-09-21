@@ -1,5 +1,5 @@
 :root {
-    /* 
+    /*
     https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%231f1f1f%2C%20Black%0D%0A%23337888%2C%20Accent%201%0D%0A%236D597A%2C%20Accent%202%0D%0A%23AF5A6C%2C%20Accent%203%0D%0A%230F4C6B%2C%20Accent%204%0D%0A%23DA2F35%2C%20Accent%205%0D%0A%2374B156%2C%20Accent%206%0D%0A%23EBC271%2C%20Accent%207%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa
     */
     --light: white;
@@ -179,3 +179,11 @@ div#subtitle {
         background-color: var(--light);
     }
 } 
+.mono {
+  font-family: ui-monospace, monospace;
+}
+#outputHex > span,
+#outputHexColon > span  {
+  margin-right: 0.5em;
+  display: inline-block;
+}

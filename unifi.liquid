@@ -1,0 +1,20 @@
+---
+title: UniFi Option 43 Converter
+---
+<label for="inputFQDN">FQDN:</label>
+<input
+  type="text"
+  id="inputFQDN"
+  placeholder="Inform URI"
+  oninput="convertText()">
+<br>
+<label for="inputIPv4">IPv4:</label>
+<input
+  type="text"
+  id="inputIPv4"
+  placeholder="IPv4 Address"
+  oninput="convertText()">
+<div class="mono">
+  <div id="outputHex"></div>
+  <div id="outputHexColon"></div>
+</div>

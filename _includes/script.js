@@ -126,3 +126,44 @@ window.onload = function load() {
     })
   }
 }
+
+function textToHex(text) {
+  const encoder = new TextEncoder();
+  const bytes = encoder.encode(text);
+  return Array.from(bytes)
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join(""); // Added a space between bytes for better readability
+}
+
+function isValidIPv4(ip) {
+  const IPV4_REGEX =
+    /^(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)(?:\.(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]\d|\d)){3}$/;
+  return IPV4_REGEX.test(ip);
+}
+function ipToHex(ip) {
+  return ip
+    .split(".")
+    .map((octet) => parseInt(octet, 10).toString(16).padStart(2, "0"))
+    .join("");
+}
+
+function convertText() {
+  const FQDN = document.getElementById("inputFQDN").value;
+  const IPv4 = document.getElementById("inputIPv4").value;
+  let Option43 = "";
+
+  if (isValidIPv4(IPv4)) {
+    const IPv4Prefix = "0104";
+    const IPv4Option = `0104${ipToHex(IPv4)}`;
+    Option43 += IPv4Option;
+  }
+  if (FQDN) {
+    const FQDNPrefix = textToHex(FQDN).length.toString(16);
+    const FQDNLength = FQDN.length.toString(16).padStart(2, "0");
+    const FQDNOption = `02${FQDNLength}${textToHex(FQDN)}`;
+    Option43 += FQDNOption;
+  }
+
+  const Option43Display = Option43.replace(/(.{1,2})/g, "<span>$1</span>");
+  document.getElementById("outputHex").innerHTML = Option43Display;
+}
