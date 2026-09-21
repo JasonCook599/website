@@ -170,4 +170,6 @@ function convertText() {
 
   const Option43Display = Option43.replace(/(.{1,2})/g, "<span>$1</span>");
   document.getElementById("outputHex").innerHTML = Option43Display;
+  const Option43Colon = Option43.replace(/(.{1,2})/g, "<span>$1:</span>");
+  document.getElementById("outputHexColon").innerHTML = Option43Colon;
 }
