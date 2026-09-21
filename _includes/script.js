@@ -129,6 +129,17 @@ window.onload = function load() {
       }
     });
   }
+
+  // Only run Option 43 code on that page.
+  const inputFQDN = document.getElementById("inputFQDN");
+  const inputIPv4 = document.getElementById("inputIPv4");
+  if (inputFQDN || inputIPv4) {
+    document.querySelectorAll("input").forEach((input) => {
+      input.addEventListener("input", (event) => {
+        convertText();
+      });
+    });
+  }
 };
 
 function textToHex(text) {
